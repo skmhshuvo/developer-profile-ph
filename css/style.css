@@ -11,7 +11,11 @@ h1 {
     font-size: 3em;
 }
 
-section {
+h2 {
+    font-size: 3em;
+}
+
+.flex {
     display: flex;
     margin-bottom: 150px;
 }
@@ -43,4 +47,23 @@ section {
     background-image: url(../img/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+.experience {
+    background-image: url(../img/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.experience-item {
+    width: 40%;
+    margin: 0 5%;
+    box-shadow: 10px 10px 40px gray;
+    padding: 20px 40px;
+    border-radius: 10px;
+    border-left: 10px solid salmon;
+}
+
+footer p {
+    text-align: center;
 }
