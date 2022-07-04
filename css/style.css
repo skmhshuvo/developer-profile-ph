@@ -1,5 +1,6 @@
 body {
     font-family: 'Poppins', sans-serif;
+    margin: 0;
 }
 
 .orange-color{
@@ -12,6 +13,7 @@ h1 {
 
 section {
     display: flex;
+    margin-bottom: 150px;
 }
 
 .half-width {
@@ -30,4 +32,15 @@ section {
     font-weight: 700;
     border-radius: 5px;
     color: #fff;
+}
+
+.hero {
+    background-image: url(../img/top-banner.png);
+    background-repeat: no-repeat;
+}
+
+.dream {
+    background-image: url(../img/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
